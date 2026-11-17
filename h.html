@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Pay Chanrathphinna (PHINNA), web developer and ITE student at NTTI.">
+    <title>PHINNA — Web Developer Portfolio</title>
+
+    <link rel="stylesheet" href="./k.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Marks the page as "JS enabled" before it paints, so fade-in cards don't flash -->
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="./j.js" defer></script>
+</head>
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a href="#home" class="brand-logo">PHINNA</a>
+
+            <!-- Checkbox powers the mobile menu -->
+            <input type="checkbox" id="nav-check" class="nav-check" aria-hidden="true">
+
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#history">History</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#contact" class="nav-talk-mobile">Let's Talk</a>
+            </nav>
+
+            <a href="#contact" class="btn-talk-nav">Let's Talk</a>
+
+            <label for="nav-check" class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============ HERO ============ -->
+        <section class="hero-section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="hero-greeting">Hello, welcome to my portfolio</p>
+                    <h1 class="hero-headline">I’m <span class="text-blue">PHINNA</span></h1>
+                    <h2 class="hero-role">Web Developer</h2>
+                    <p class="hero-bio">
+                        I turn ideas into thoughtful digital products – with clean code, polished interfaces, and experiences people enjoy using.
+                    </p>
+                    <div class="hero-action">
+                        <a href="#projects" class="btn-primary">Explore my work</a>
+                        <a href="#contact" class="btn-secondary">Let's Talk</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="code-window-3d" aria-hidden="true">
+                        <div class="window-top-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot white"></span>
+                        </div>
+                        <div class="window-content">
+                            <div class="code-tags">&lt;/&gt;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ ABOUT ============ -->
+        <section class="about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-image-wrapper">
+                    <img src="./Gemini_Generated_Image_ktpp23ktpp23ktpp.jpg" alt="Pay Chanrathphinna">
+                </div>
+
+                <div class="about-content">
+                    <h2 class="about-title">About Me</h2>
+                    <p class="about-desc-1">
+                        I'm Pay Chanrathphinna, a Year 1 student at NTTI majoring in ITE. I'm from Kampong Chhnang. I graduated from Kor Primary School in 2020, Ang Serey Secondary School in 2023, and completed my BacII at Seyhakmuny High School in 2026. My dream job is to become a Full-Stack Developer.
+                    </p>
+                    <p class="about-desc-2">
+                        From the first sketch to the final line of code, I care about thoughtful design, clean structure, accessibility, and how a product feels in real life.
+                    </p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item"><span class="bullet-dot">•</span><span>Thoughtful design</span></div>
+                        <div class="highlight-item"><span class="bullet-dot">•</span><span>Constant learning</span></div>
+                        <div class="highlight-item"><span class="bullet-dot">•</span><span>Maintainable code</span></div>
+                        <div class="highlight-item"><span class="bullet-dot">•</span><span>Real-world impact</span></div>
+                    </div>
+
+                    <div class="about-divider"></div>
+                    <a href="#services" class="about-link">Learn more!</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ HISTORY OF STUDY ============ -->
+        <section class="history-section" id="history">
+            <div class="container">
+
+                <div class="hs-head">
+                    <span class="hs-eyebrow">Education</span>
+                    <h2>History of Study</h2>
+                    <p>The schools that shaped me, from my first years in primary school to my IT studies at NTTI today.</p>
+                </div>
+
+                <div class="hs-timeline">
+
+                    <!-- NTTI -->
+                    <div class="hs-item">
+                        <span class="hs-dot"></span>
+                        <article class="hs-card">
+                            <div class="hs-media">
+                                <img class="hs-main" src="./ntti-group.jpg" alt="Group photo of students at NTTI" loading="lazy" decoding="async">
+                                <img class="hs-thumb hs-logo" src="./ntti-logo.jpg" alt="NTTI logo" loading="lazy" decoding="async">
+                            </div>
+                            <div class="hs-body">
+                                <span class="hs-period">2026 – Present</span>
+                                <h3>National Technical Training Institute</h3>
+                                <p class="hs-level">NTTI · Year 1 · ITE</p>
+                                <p class="hs-text">I'm a Year 1 student majoring in ITE. This is where I'm learning to build real software and working toward my dream of becoming a Full-Stack Developer.</p>
+                                <div class="hs-tags"><span>ITE</span><span>Web Development</span></div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Ang Serey -->
+                    <div class="hs-item">
+                        <span class="hs-dot"></span>
+                        <article class="hs-card">
+                            <div class="hs-media">
+                                <img class="hs-main" src="./angserey-gate.jpg" alt="Entrance of Ang Serey Secondary School" loading="lazy" decoding="async">
+                                <img class="hs-thumb" src="./angserey-group.jpg" alt="Group photo at Ang Serey Secondary School" loading="lazy" decoding="async">
+                            </div>
+                            <div class="hs-body">
+                                <span class="hs-period">Graduated 2023</span>
+                                <h3>Ang Serey Secondary School</h3>
+                                <p class="hs-level">Secondary School</p>
+                                <p class="hs-text">I completed my secondary school studies here in 2023, then moved on to high school to prepare for the BacII exam.</p>
+                                <div class="hs-tags"><span>Secondary School</span></div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Kor -->
+                    <div class="hs-item">
+                        <span class="hs-dot"></span>
+                        <article class="hs-card">
+                            <div class="hs-media">
+                                <img class="hs-main hs-main-top" src="./kor-sign.jpg" alt="Entrance of Kor Primary School" loading="lazy" decoding="async">
+                                <img class="hs-thumb" src="./kor-gate.jpg" alt="Gate of Kor Primary School" loading="lazy" decoding="async">
+                            </div>
+                            <div class="hs-body">
+                                <span class="hs-period">Graduated 2020</span>
+                                <h3>Kor Primary School</h3>
+                                <p class="hs-level">Primary School</p>
+                                <p class="hs-text">Where my education began. I graduated from primary school here in 2020 and took my first steps as a learner.</p>
+                                <div class="hs-tags"><span>Primary School</span></div>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============ SKILLS ============ -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+
+                <h2>Skills and Technologies</h2>
+                <p>I have experience with HTML and CSS, and I am continuously improving my skills.</p>
+
+                <div class="skill-grid">
+
+                    <div class="skill-card light">
+                        <div class="skill-icon-wrap">
+                            <i class="fa-solid fa-crown"></i>
+                        </div>
+                        <h3>FRONTEND</h3>
+                        <p>HTML, CSS</p>
+                    </div>
+
+                    <div class="skill-card dark">
+                        <div class="skill-icon-wrap">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>BACKEND</h3>
+                        <p>C++, JavaScript</p>
+                    </div>
+
+                    <div class="skill-card light">
+                        <div class="skill-icon-wrap">
+                            <i class="fa-solid fa-fill-drip"></i>
+                        </div>
+                        <h3>TOOLS</h3>
+                        <p>VS Code, Git</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PROJECTS ============ -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+
+                <div class="pj-head">
+                    <span class="pj-eyebrow">My Work</span>
+                    <h2>Featured Projects</h2>
+                    <p>A selection of projects I've built while learning. Each one helped me grow as a developer.</p>
+                </div>
+
+                <div class="pj-grid">
+
+                    <!-- Project 1 -->
+                    <article class="pj-card">
+                        <div class="pj-thumb pj-thumb-1">
+                            <span class="pj-number">01</span>
+                            <div class="pj-mock" aria-hidden="true">
+                                <div class="pj-mock-bar"><i></i><i></i><i></i></div>
+                                <div class="pj-mock-body">
+                                    <div class="mk-row">
+                                        <div class="mk-avatar"></div>
+                                        <div class="mk-lines"><b></b><b class="short"></b></div>
+                                    </div>
+                                    <div class="mk-block"></div>
+                                    <div class="mk-cols"><span></span><span></span><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pj-body">
+                            <div class="pj-tags"><span>HTML</span><span>CSS</span></div>
+                            <h3>Personal Portfolio</h3>
+                            <p>A responsive one-page portfolio with clean layout, smooth scrolling and a mobile menu.</p>
+                            <div class="pj-links">
+                                <a href="#" class="pj-btn pj-btn-fill">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="#" class="pj-btn pj-btn-line"><i class="fa-brands fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 (dark) -->
+                    <article class="pj-card dark">
+                        <div class="pj-thumb pj-thumb-2">
+                            <span class="pj-number">02</span>
+                            <div class="pj-mock" aria-hidden="true">
+                                <div class="pj-mock-bar"><i></i><i></i><i></i></div>
+                                <div class="pj-mock-body">
+                                    <div class="mk-todo done"><em><i class="fa-solid fa-check"></i></em><b></b></div>
+                                    <div class="mk-todo"><em></em><b class="short"></b></div>
+                                    <div class="mk-todo"><em></em><b></b></div>
+                                    <div class="mk-add"><span></span><u></u></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pj-body">
+                            <div class="pj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <h3>To-Do List App</h3>
+                            <p>Add, complete and delete tasks. Your list is saved in the browser so it stays after a refresh.</p>
+                            <div class="pj-links">
+                                <a href="#" class="pj-btn pj-btn-fill">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="#" class="pj-btn pj-btn-line"><i class="fa-brands fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="pj-card">
+                        <div class="pj-thumb pj-thumb-3">
+                            <span class="pj-number">03</span>
+                            <div class="pj-mock" aria-hidden="true">
+                                <div class="pj-mock-bar"><i></i><i></i><i></i></div>
+                                <div class="pj-mock-body">
+                                    <div class="mk-hero-cafe"><i class="fa-solid fa-mug-hot"></i></div>
+                                    <div class="mk-cols"><span></span><span></span><span></span></div>
+                                    <div class="mk-lines"><b></b><b class="short"></b></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pj-body">
+                            <div class="pj-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+                            <h3>Café Landing Page</h3>
+                            <p>A modern landing page with a menu section, image gallery and a mobile-friendly layout.</p>
+                            <div class="pj-links">
+                                <a href="#" class="pj-btn pj-btn-fill">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="#" class="pj-btn pj-btn-line"><i class="fa-brands fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="pj-more">
+                    <a href="https://github.com/" target="_blank" rel="noopener" class="pj-btn pj-btn-fill pj-btn-big">
+                        <i class="fa-brands fa-github"></i> See more on GitHub
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============ SERVICES ============ -->
+        <section class="services-section" id="services">
+            <div class="container">
+
+                <div class="sv-head">
+                    <span class="sv-eyebrow">What I Do</span>
+                    <h2>Services I Offer</h2>
+                    <p>Ways I can help turn your idea into a clean, fast and modern website.</p>
+                </div>
+
+                <div class="sv-grid">
+
+                    <div class="sv-card">
+                        <div class="sv-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <span class="sv-number">01</span>
+                        <h3>Website Development</h3>
+                        <p>Clean, well-structured websites built from scratch with HTML, CSS and JavaScript.</p>
+                        <ul class="sv-list">
+                            <li><i class="fa-solid fa-check"></i> Landing pages</li>
+                            <li><i class="fa-solid fa-check"></i> Portfolio sites</li>
+                            <li><i class="fa-solid fa-check"></i> Business websites</li>
+                        </ul>
+                    </div>
+
+                    <div class="sv-card featured">
+                        <div class="sv-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <span class="sv-number">02</span>
+                        <h3>Responsive Design</h3>
+                        <p>Layouts that look great and work smoothly on phones, tablets and desktop screens.</p>
+                        <ul class="sv-list">
+                            <li><i class="fa-solid fa-check"></i> Mobile-first layout</li>
+                            <li><i class="fa-solid fa-check"></i> Flexible grids</li>
+                            <li><i class="fa-solid fa-check"></i> Cross-browser support</li>
+                        </ul>
+                    </div>
+
+                    <div class="sv-card">
+                        <div class="sv-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <span class="sv-number">03</span>
+                        <h3>UI Implementation</h3>
+                        <p>Turning Figma or sketch designs into accurate, pixel-friendly code.</p>
+                        <ul class="sv-list">
+                            <li><i class="fa-solid fa-check"></i> Design to code</li>
+                            <li><i class="fa-solid fa-check"></i> Reusable components</li>
+                            <li><i class="fa-solid fa-check"></i> Smooth animations</li>
+                        </ul>
+                    </div>
+
+                    <div class="sv-card">
+                        <div class="sv-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <span class="sv-number">04</span>
+                        <h3>Website Maintenance</h3>
+                        <p>Bug fixes, small updates and improvements to keep an existing site running well.</p>
+                        <ul class="sv-list">
+                            <li><i class="fa-solid fa-check"></i> Bug fixing</li>
+                            <li><i class="fa-solid fa-check"></i> Content updates</li>
+                            <li><i class="fa-solid fa-check"></i> Speed improvements</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="sv-cta">
+                    <p>Have a project in mind?</p>
+                    <a href="#contact" class="sv-btn">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section class="contact-section" id="contact">
+            <div class="container contact-grid">
+
+                <div class="contact-info">
+                    <p class="section-eyebrow">Get in touch</p>
+                    <h2 class="section-title left">Let's Talk</h2>
+                    <p class="contact-text">
+                        Have a project, an idea, or just want to say hello? Send me a message and I'll reply as soon as I can.
+                    </p>
+
+                    <ul class="contact-list">
+                        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:ktplay801@gmail.com">ktplay801@gmail.com</a></li>
+                        <li><i class="fa-solid fa-phone"></i> <a href="tel:+855883830602">+855 883830602</a></li>
+                        <li><i class="fa-solid fa-location-dot"></i> <span>Kampong Chhnang, Cambodia</span></li>
+                    </ul>
+                </div>
+
+                <!-- Without JS this opens the visitor's email app. With JS see j.js (CONFIG). -->
+                <form class="contact-form" id="contact-form" action="mailto:ktplay801@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary btn-full">Send message</button>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container footer-wrapper">
+            <p>&copy; <span id="year">2026</span> Pay Chanrathphinna. All rights reserved.</p>
+            <a href="#home" class="back-to-top">Back to top ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
